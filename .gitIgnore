@@ -1,0 +1,8 @@
+/node_modules
+/data/config.env
+/user.js
+/practise.js
+/userPractise.js
+
+
+// ye file hme repository me dalne nhi hote because personal keys hote hai so talking about config.env

@@ -10,7 +10,7 @@ const schema = new mongoose.Schema({
     password: {
         type:String,
         required:true,
-        select: false,
+        select: false,// so directky acess nhi kr skte usme .select("+password") krna hoga find me
     },
     createdAt: {  // to know that when user is created his account
         type:Date,

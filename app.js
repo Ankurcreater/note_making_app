@@ -7,9 +7,10 @@ config({
 }) 
 
     export const app = express();
-
+//Using Middleware
 app.use(express.json());
-app.use("/users",userRouter);
+//Using routes
+app.use("/api/v1/users",userRouter);
 
 
 
